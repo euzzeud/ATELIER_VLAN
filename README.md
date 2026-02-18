@@ -195,16 +195,25 @@ Changer VLAN 10 en :
 ```
 
 Questions :
-- Combien d’hôtes max ?  
-- Quelle plage IP valide ?  
-- Peut-on encore communiquer avec VLAN 20 ?
+- Combien d’hôtes max ?  128 adresses totales donc 126 hôtes utilisables
+- Quelle plage IP valide ?  192.168.10.1 à 192.168.10.126
+- Peut-on encore communiquer avec VLAN 20 ? Oui tant que la GW est correcte et que le routeur connait les deux réseaux.
 
 ---
 
 # 🚀 Extensions
 
 - Ajouter VLAN 30  
-- Mettre un DHCP par VLAN  
+
+<img src="./screenshots/config_vlan30_router.png">
+
+- Mettre un DHCP par VLAN 
+
+Création des pools DHCP :
+<img src="./screenshots/create_dhcp_pool.png">
+
+Résultat de la commande show ip dhcp pool :
+<img src="./screenshots/show_ip_dhcp_pool.png">
   
 ---
 
