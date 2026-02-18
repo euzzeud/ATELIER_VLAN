@@ -210,6 +210,7 @@ Questions :
 - Mettre un DHCP par VLAN 
 
 Création des pools DHCP :
+
 <img src="./screenshots/create_dhcp_pool.png">
 
 Résultat de la commande show ip dhcp pool :
