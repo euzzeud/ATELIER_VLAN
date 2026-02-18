@@ -155,7 +155,7 @@ Configurer IP + passerelle selon le plan d’adressage.
 PC1 → PC2  
 👉 Doit fonctionner
 
-[[file:/screenshots/test1.png]]
+#+HTML: <img src="./screenshots/test1.png">
 
 ---
 
