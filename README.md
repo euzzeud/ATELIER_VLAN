@@ -155,7 +155,7 @@ Configurer IP + passerelle selon le plan d’adressage.
 PC1 → PC2  
 👉 Doit fonctionner
 
-* * Copie d'écran ici * *  
+[[file:./screenshots/test1.png]]
 
 ---
 
